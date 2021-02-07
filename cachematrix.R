@@ -3,7 +3,7 @@
 
 ## Write a short comment describing this function
 # example for testing the program
-#matrix1 <- matrix(c(1,4,6,2), nrow = 2, ncol = 2, byrow = TRUE)
+#matrix1 <- matrix(1:16, nrow = 4, ncol = 4, byrow = TRUE)
 #matrix2<-(makeCacheMatrix(matrix1))
 
 makeCacheMatrix <- function(x = matrix()) {
